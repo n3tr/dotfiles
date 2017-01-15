@@ -1,0 +1,8 @@
+#!/bin/sh
+#
+# Quick search in a directory for a string ($@).
+#
+set -e
+
+npm set registry https://registry.npmjs.org/
+npm config list

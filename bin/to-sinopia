@@ -1,0 +1,11 @@
+#!/bin/sh
+#
+# Quick search in a directory for a string ($@).
+#
+set -e
+
+if test $(which sinopia);
+then
+  npm set registry http://localhost:4873/
+  npm config list
+fi
